@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.logo {
+    flex: 5;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.logo h1{
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 50px;
+}
+
+
+.bar-description{
+    flex: 4
+}
+
+.bar-description h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.pet-project-cells{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.pet-project-cell{
+    margin: 3rem;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 0.5px solid #dedede;
+    width: 230px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pet-project-cell-photo{
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+.pet-project-cell-description{
+
+}
+
+.interests-cells{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.interests-cells-batch{
+    margin-right: 8rem;
+}
+
+.interests-cell{
+    align-self: left;
+    justify-self: left;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+}
+
+.interests-cell h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.section-header{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer{
+	margin-top: 1rem;
+  	margin-bottom: 2rem;
+  	position: fixed;
+  	bottom: 0;
+  	min-width: 100%;
+	max-width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.links {
+    margin-right: 3rem;
+}
+
+.link img{
+    width: 30px;
+    height: 30px;
+    padding: 0px 10px 0px 5px;
+}
+
+.move-menu{
+    position: fixed;
+    left: 0;
+    bottom: 55%;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.move-menu button {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+.move-menu button:hover {
+    transition-delay: 0.1s;
+    transition-property: background-color;
+    background-color: #f0f6ff;
+}
+
+.interests{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
