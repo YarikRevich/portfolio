@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 .nav-bar{
     display: flex;
@@ -44,8 +45,9 @@
     background-color: aliceblue;
     border-radius: 10px;
     border: 0.5px solid #dedede;
-    width: 230px;
-    height: 300px;
+    width: 300px;
+    /* height: 300px; */
+    min-height: 100%;
 
     display: flex;
     align-items: center;
@@ -55,14 +57,25 @@
 .pet-project-cell-photo{
     background-color: #fcfcfc;
     border-radius: 20px;
-    width: 200px;
-    height: 200px;
+
+    width: inherit ;
+    height: inherit;
+
     
     font-family: 'Quicksand', sans-serif;
 }
 
-.pet-project-cell-description{
+.pet-project-cell-photo img{
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+}
 
+.pet-project-cell-description{
+    font-family: 'Roboto Mono', monospace;
+    min-width: 100%;
+    padding-left: 20px;
+    text-align: left;
 }
 
 .interests-cells{
@@ -117,7 +130,7 @@
 .move-menu{
     position: fixed;
     left: 0;
-    bottom: 55%;
+    bottom: 40%;
     margin-left: 4rem;
     display: flex;
     flex-direction: column;

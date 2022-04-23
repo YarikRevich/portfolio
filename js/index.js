@@ -5,3 +5,7 @@ function scrollToPetProjects(){
 function scrollToInterests(){
     document.getElementById("interests").scrollIntoView();
 }
+
+function scrollToActivities(){
+    document.getElementById("activities").scrollIntoView();
+}
