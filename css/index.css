@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
@@ -99,6 +104,56 @@
 .interests-cell h4{
     margin-bottom: 10px;
     color: grey;
+}
+
+.activities-cells {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.activities-cell {
+    margin: 3rem;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 0.5px solid #dedede;
+    width: 500px;
+    min-height: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.activities-cell h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.activities-cell-photo{
+    background-color: #fcfcfc;
+    border-radius: 20px;
+
+    width: inherit ;
+    height: inherit;
+
+    
+    font-family: 'Quicksand', sans-serif;
+}
+
+.activities-cell-photo img{
+    height: inherit;
+    width: inherit;
+    border-radius: 10px;
+}
+
+.activities-cell-description{
+    font-family: 'Roboto Mono', monospace;
+    min-width: 100%;
+    padding-left: 20px;
+    text-align: left;
 }
 
 .section-header{
