@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
+
+
 a{
     text-decoration: none;
     color: black;
@@ -51,7 +53,7 @@ a{
     border-radius: 10px;
     border: 0.5px solid #dedede;
     width: 300px;
-    /* height: 300px; */
+    max-width: 70%;
     min-height: 100%;
 
     display: flex;
@@ -63,7 +65,8 @@ a{
     background-color: #fcfcfc;
     border-radius: 20px;
 
-    width: inherit ;
+    width: inherit;
+    max-width: 70%;
     height: inherit;
 
     
@@ -73,6 +76,7 @@ a{
 .pet-project-cell-photo img{
     height: inherit;
     width: inherit;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -102,11 +106,13 @@ a{
 }
 
 .interests-cell h4{
+    
     margin-bottom: 10px;
     color: grey;
 }
 
 .activities-cells {
+    
     display: flex;
     flex-direction: column ;
     align-items: center;
@@ -120,6 +126,7 @@ a{
     border-radius: 10px;
     border: 0.5px solid #dedede;
     width: 500px;
+    max-width: 70%;
     min-height: 100%;
 
     display: flex;
@@ -135,6 +142,8 @@ a{
 .activities-cell-photo{
     background-color: #fcfcfc;
     border-radius: 20px;
+    max-width: 70%;
+    
 
     width: inherit ;
     height: inherit;
@@ -146,6 +155,7 @@ a{
 .activities-cell-photo img{
     height: inherit;
     width: inherit;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -173,13 +183,15 @@ a{
 }
 
 .links {
-    margin-right: 3rem;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .link img{
     width: 30px;
     height: 30px;
-    padding: 0px 10px 0px 5px;
+    padding-top: 10px;
 }
 
 .move-menu{
@@ -211,4 +223,58 @@ a{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 856px) {
+    .move-menu{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 856px) and (max-width: 894px){
+    .move-menu{
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 894px) and (max-width: 930px){
+    .move-menu{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 930px) and (max-width: 1000px){
+    .move-menu{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .logo{
+        margin-left: 0px;
+    }
+
+    .nav-bar{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .bar-description h2{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 271px){
+    .bar-description h2{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .links {
+        margin-right: 1rem;
+    }
 }
