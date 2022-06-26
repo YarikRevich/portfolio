@@ -111,6 +111,30 @@ a{
     color: grey;
 }
 
+.languages-cells{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages-cells-batch{
+    margin-right: 26rem;
+}
+
+.languages-cell{
+    align-self: left;
+    justify-self: left;
+    font-family: 'Quicksand', sans-serif;
+    list-style-type: none;
+}
+
+.languages-cell h4{
+    
+    margin-bottom: 10px;
+    color: grey;
+}
+
 .activities-cells {
     
     display: flex;
@@ -197,7 +221,7 @@ a{
 .move-menu{
     position: fixed;
     left: 0;
-    bottom: 40%;
+    bottom: 30%;
     margin-left: 4rem;
     display: flex;
     flex-direction: column;
@@ -256,6 +280,30 @@ a{
 
     .nav-bar{
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .languages-cells-batch{
+        margin-right: 20rem;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .languages-cells-batch{
+        margin-right: 16rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .languages-cells-batch{
+        margin-right: 12rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .languages-cells-batch{
+        margin-right: 8rem;
     }
 }
 
