@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 
 a{
@@ -25,7 +24,7 @@ a{
 }
 
 .logo h1{
-    font-family: 'Rubik Puddles', cursive;
+    font-family: 'SUSE', cursive;
     font-size: 50px;
 }
 
@@ -35,8 +34,8 @@ a{
 }
 
 .bar-description h2{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 17px;
 }
 
 .me-image img {
