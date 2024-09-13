@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 
 a{
@@ -25,18 +24,27 @@ a{
 }
 
 .logo h1{
-    font-family: 'Rubik Puddles', cursive;
+    font-family: 'SUSE', cursive;
     font-size: 50px;
 }
 
-
 .bar-description{
-    flex: 4
+    flex: 2;
+    margin-right: 1rem;
 }
 
 .bar-description h2{
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.me-image img {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    height: 150px;
+    width: 150px;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 .pet-project-cells{
@@ -52,7 +60,7 @@ a{
     background-color: aliceblue;
     border-radius: 10px;
     border: 0.5px solid #dedede;
-    width: 300px;
+    width: 400px;
     max-width: 70%;
     min-height: 100%;
 
@@ -64,13 +72,10 @@ a{
 .pet-project-cell-photo{
     background-color: #fcfcfc;
     border-radius: 20px;
-
     width: inherit;
     max-width: 70%;
     height: inherit;
-
-    
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', monospace;
 }
 
 .pet-project-cell-photo img{
@@ -81,7 +86,7 @@ a{
 }
 
 .pet-project-cell-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', monospace;
     min-width: 100%;
     padding-left: 20px;
     text-align: left;
@@ -119,7 +124,7 @@ a{
 }
 
 .languages-cells-batch{
-    margin-right: 26rem;
+    margin-right: 31rem;
 }
 
 .languages-cell{
@@ -167,12 +172,8 @@ a{
     background-color: #fcfcfc;
     border-radius: 20px;
     max-width: 70%;
-    
-
     width: inherit ;
     height: inherit;
-
-    
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -184,7 +185,7 @@ a{
 }
 
 .activities-cell-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', monospace;
     min-width: 100%;
     padding-left: 20px;
     text-align: left;
@@ -243,7 +244,13 @@ a{
     background-color: #f0f6ff;
 }
 
-.interests{
+.interests {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.languages {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -273,6 +280,27 @@ a{
     }
 }
 
+@media screen and (min-width: 868px) and (max-width: 1050px) {
+    .me-image img {
+        height: 90px;
+        width: 90px;
+    }
+}
+
+@media screen and (min-width: 835px) and (max-width: 868px) {
+    .me-image img {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 835px) {
+    .me-image img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
 @media screen and (max-width: 620px){
     .logo{
         margin-left: 0px;
@@ -280,6 +308,17 @@ a{
 
     .nav-bar{
         flex-direction: column;
+    }
+
+    .bar-description {
+        margin-bottom: 1rem;
+    }
+
+    .me-image img {
+        margin-top: 0rem;
+        margin-right: 0rem;
+        height: 90px;
+        width: 90px;
     }
 }
 
