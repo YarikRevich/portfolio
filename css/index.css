@@ -34,7 +34,7 @@ a{
 }
 
 .bar-description h2{
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 17px;
 }
 
@@ -60,7 +60,7 @@ a{
     background-color: aliceblue;
     border-radius: 10px;
     border: 0.5px solid #dedede;
-    width: 300px;
+    width: 400px;
     max-width: 70%;
     min-height: 100%;
 
@@ -72,13 +72,10 @@ a{
 .pet-project-cell-photo{
     background-color: #fcfcfc;
     border-radius: 20px;
-
     width: inherit;
     max-width: 70%;
     height: inherit;
-
-    
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', monospace;
 }
 
 .pet-project-cell-photo img{
@@ -89,7 +86,7 @@ a{
 }
 
 .pet-project-cell-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', monospace;
     min-width: 100%;
     padding-left: 20px;
     text-align: left;
@@ -175,12 +172,8 @@ a{
     background-color: #fcfcfc;
     border-radius: 20px;
     max-width: 70%;
-    
-
     width: inherit ;
     height: inherit;
-
-    
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -192,7 +185,7 @@ a{
 }
 
 .activities-cell-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', monospace;
     min-width: 100%;
     padding-left: 20px;
     text-align: left;
