@@ -14,6 +14,9 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    background-color: #f0f7fc;
+    border-radius: 1%;
+    margin-bottom: 2.5rem;
 }
 
 .logo {
@@ -45,6 +48,7 @@ a{
     width: 150px;
     max-width: 100%;
     border-radius: 50%;
+    padding: 1.5rem;
 }
 
 .pet-project-cells{
@@ -193,6 +197,7 @@ a{
 
 .section-header{
     font-family: 'Bebas Neue', cursive;
+    margin-top: 2rem;
 }
 
 .footer {
